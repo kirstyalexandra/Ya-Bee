@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffecb3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/letsGetStartedText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's get started!"
+        android:textColor="#212121"
+        android:textSize="30sp"
+        android:textStyle="" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Name"
+        android:inputType="textPersonName"
+        android:textColor="#212121"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/emailText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail"
+        android:inputType="textEmailAddress"
+        android:textColor="#212121"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/usernameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:inputType="text"
+        android:textColor="#212121"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/passwordText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:inputType="numberPassword"
+        android:textColor="#212121"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/signUpButtonText"
+        android:text="Finish"
+        android:textColor="#212121"
+        android:background="@drawable/rounded_button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        />
+
+</LinearLayout>

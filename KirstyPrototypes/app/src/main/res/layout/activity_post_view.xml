@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffecb3"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="24:00:00"
+        android:textSize="16sp"
+        android:textColor="#212121"
+        android:layout_gravity="end"
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="325dp"
+        android:maxHeight="250dp"
+        android:scaleType="center"
+        android:background="@mipmap/computer_network_dummy_foreground" />
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#212121"
+        android:textSize="22sp"
+        android:text="Computer Networking: A Top-Down Approach by James F. Kurose and Keith W. Ross (2012 Harcover Version)"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#757575"
+        android:textSize="20sp"
+        android:text="Max price: $60.00"
+        />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <Button
+        android:id="@+id/BidButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Make Offer"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        />
+    <Button
+        android:id="@+id/interestedButton"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:text="Interested?"
+        android:textSize="18sp"
+        android:textColor="#212121"
+        />
+
+
+
+</LinearLayout>
