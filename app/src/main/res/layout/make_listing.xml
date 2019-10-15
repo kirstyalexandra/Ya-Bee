@@ -99,16 +99,7 @@
         android:text="Auction Length"
         android:textSize="24sp" />
 
-    <EditText
-        android:id="@+id/numberDays"
-        android:layout_width="52dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentleft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginLeft="38dp"
-        android:layout_marginBottom="76dp"
-        android:ems="10"
-        android:inputType="number" />
+    
 
     <TextView
         android:id="@+id/days"
@@ -137,7 +128,7 @@
         android:textSize="24sp" />
 
     <EditText
-        android:id="@+id/topPrice"
+        android:id="@+id/yourPrice"
         android:layout_width="99dp"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
@@ -148,7 +139,7 @@
         android:inputType="numberDecimal" />
 
     <TextView
-        android:id="@+id/maxPrice"
+        android:id="@+id/topPrice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
